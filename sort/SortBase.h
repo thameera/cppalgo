@@ -30,10 +30,7 @@ public:
         cout << std::endl;
     }
 
-    void Print(const std::string s = "")
-    {
-        Print(v, s);
-    }
+    inline void Print(const std::string s = "") { Print(v, s); }
 
     virtual void doSort() = 0;
 
