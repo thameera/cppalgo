@@ -1,5 +1,5 @@
-omi
 *.o
+*.h.gch
 a.out
 
 *.swp
