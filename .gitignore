@@ -1,0 +1,7 @@
+omi
+*.o
+a.out
+
+*.swp
+*.vim
+
