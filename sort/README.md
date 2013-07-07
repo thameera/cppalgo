@@ -2,7 +2,10 @@
 
 ## How to build
 
-Copy main.cpp.sample to main.cpp and modify as necessary. Then, build with the command:
+Copy main.cpp.sample to main.cpp and modify as necessary. Then, build with `make`. Then run the binary file `sort`.
 
-    g++ -std=c++11 main.cpp
+    cp main.cpp.sample main.cpp
+    // edit main.cpp as necessary
+    make
+    ./sort
 

@@ -3,6 +3,7 @@
 a.out
 
 sort/main.cpp
+sort/sort
 
 *.swp
 *.vim
