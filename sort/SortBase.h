@@ -1,3 +1,6 @@
+#ifndef _SORT_BASE_H_
+#define _SORT_BASE_H_
+
 #include <iostream>
 #include <vector>
 
@@ -45,4 +48,6 @@ protected:
     std::vector<int> v;
     std::vector<int> v_orig;
 };
+
+#endif // _SORT_BASE_H_
 

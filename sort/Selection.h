@@ -1,3 +1,6 @@
+#ifndef _SELECTION_H_
+#define _SELECTION_H_
+
 #include "SortBase.h"
 
 class SelectionSort : public SortBase
@@ -25,12 +28,5 @@ public:
     }
 };
 
-int main(int argc, char *argv[])
-{
-    SelectionSort s(argc, argv);
-
-    s.start();
-
-    return 0;
-}
+#endif // _SELECTION_H_
 

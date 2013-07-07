@@ -1,3 +1,6 @@
+#ifndef _BUBBLE_H_
+#define _BUBBLE_H_
+
 #include "SortBase.h"
 
 class BubbleSort : public SortBase
@@ -29,12 +32,5 @@ public:
     }
 };
 
-int main(int argc, char *argv[])
-{
-    BubbleSort s(argc, argv);
-
-    s.start();
-
-    return 0;
-}
+#endif // _BUBBLE_H_
 

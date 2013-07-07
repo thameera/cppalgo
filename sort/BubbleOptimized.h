@@ -1,3 +1,6 @@
+#ifndef _BUBBLE_OPTIMIZED_H_
+#define _BUBBLE_OPTIMIZED_H_
+
 #include "SortBase.h"
 
 // Optimization:
@@ -36,12 +39,5 @@ public:
     }
 };
 
-int main(int argc, char *argv[])
-{
-    OptimizedBubbleSort s(argc, argv);
-
-    s.start();
-
-    return 0;
-}
+#endif // _BUBBLE_OPTIMIZED_H_
 

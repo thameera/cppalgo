@@ -1,0 +1,13 @@
+#include "Selection.h"
+#include "Bubble.h"
+#include "BubbleOptimized.h"
+
+int main(int argc, char *argv[])
+{
+    SelectionSort s(argc, argv);
+
+    s.start();
+
+    return 0;
+}
+

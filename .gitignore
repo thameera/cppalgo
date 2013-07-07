@@ -2,6 +2,8 @@
 *.h.gch
 a.out
 
+sort/main.cpp
+
 *.swp
 *.vim
 

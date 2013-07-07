@@ -1,9 +1,8 @@
 # cppalgo : Sort algorithms
 
 ## How to build
-    g++ -std=c++11 <name>.cpp
 
-Example:
+Copy main.cpp.sample to main.cpp and modify as necessary. Then, build with the command:
 
-    g++ -std=c++11 Selection.cpp
+    g++ -std=c++11 main.cpp
 
