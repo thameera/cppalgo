@@ -13,6 +13,8 @@ public:
         : SortBase(argc, argv)
     {}
 
+    const std::string getName() { return "Optimized Bubble Sort"; }
+
     void doSort()
     {
         auto n = v.size() - 1;

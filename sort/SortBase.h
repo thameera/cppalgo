@@ -37,8 +37,11 @@ public:
 
     virtual void doSort() = 0;
 
+    virtual const std::string getName() { return "N/A"; }
+
     void start()
     {
+        std::cout << "Running " << getName() << "..." << std::endl;
         Print("Input ");
         doSort();
         Print("Output");

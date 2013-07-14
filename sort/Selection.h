@@ -11,6 +11,8 @@ public:
     {
     }
 
+    const std::string getName() { return "Selection Sort"; }
+
     void doSort()
     {
         for (decltype(v.size()) i = 0; i < v.size() - 1; i++)

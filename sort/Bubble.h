@@ -10,6 +10,8 @@ public:
         : SortBase(argc, argv)
     {}
 
+    const std::string getName() { return "Bubble Sort"; }
+
     void doSort()
     {
         while (true)

@@ -11,6 +11,8 @@ public:
     {
     }
 
+    const std::string getName() { return "Insertion Sort"; }
+
     void doSort()
     {
         for (decltype(v.size()) i = 0; i < v.size(); i++)
