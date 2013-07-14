@@ -1,6 +1,7 @@
 #include "Selection.h"
 #include "Bubble.h"
 #include "BubbleOptimized.h"
+#include "Insertion.h"
 
 int main(int argc, char *argv[])
 {
