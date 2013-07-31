@@ -4,6 +4,9 @@
 #include <iostream>
 #include <vector>
 
+#define DEBUG(x) do { std::cerr << x << std::endl; } while (false)
+#define DEBUGL(x) do { std::cerr << __FILE__ << ":" << __LINE__ << " " << x << std::endl; } while (false)
+
 typedef std::vector<int> vect;
 
 class SortBase
