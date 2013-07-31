@@ -15,7 +15,7 @@ public:
 
     void doSort()
     {
-        for (decltype(v.size()) i = 0; i < v.size(); i++)
+        for (decltype(v.size()) i = 1; i < v.size(); i++)
         {
             auto curVal = v[i];
             auto hole = i;

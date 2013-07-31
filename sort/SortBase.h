@@ -4,6 +4,8 @@
 #include <iostream>
 #include <vector>
 
+typedef std::vector<int> vect;
+
 class SortBase
 {
 public:
@@ -20,7 +22,7 @@ public:
 
     virtual ~SortBase() {}
 
-    void Print(const std::vector<int>& vv, const std::string s = "")
+    void Print(const vect& vv, const std::string s = "")
     {
         using std::cout;
 
@@ -48,8 +50,8 @@ public:
     }
 
 protected:
-    std::vector<int> v;
-    std::vector<int> v_orig;
+    vect v;
+    vect v_orig;
 };
 
 #endif // _SORT_BASE_H_
