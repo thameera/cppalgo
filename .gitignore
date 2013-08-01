@@ -1,9 +1,11 @@
 *.o
+*.a
 *.h.gch
 a.out
 
 sort/main.cpp
 sort/sort
+sort/sorttest
 
 *.swp
 *.vim
