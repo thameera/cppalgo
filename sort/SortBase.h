@@ -25,6 +25,9 @@ public:
 
     virtual ~SortBase() {}
 
+    inline const vect& getVect() { return v; }
+    inline void setVect(vect vv) { v = vv; }
+
     void Print(const vect& vv, const std::string s = "")
     {
         using std::cout;

@@ -2,6 +2,7 @@
 #include "Bubble.h"
 #include "BubbleOptimized.h"
 #include "Insertion.h"
+#include "Merge.h"
 
 int main(int argc, char *argv[])
 {

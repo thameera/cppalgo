@@ -4,7 +4,10 @@
 
 TEST(SortTest, BubbleSortTest)
 {
-    EXPECT_EQ(1, 1);
+    BubbleSort bs(0, NULL);
+    bs.doSort();
+    vect v = bs.getVect();
+    EXPECT_EQ(1, v[0]);
 }
 
 int main(int argc, char *argv[])
