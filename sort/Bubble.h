@@ -6,6 +6,8 @@
 class BubbleSort : public SortBase
 {
 public:
+    BubbleSort() {}
+
     BubbleSort(int argc, char *argv[])
         : SortBase(argc, argv)
     {}

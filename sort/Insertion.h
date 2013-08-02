@@ -6,6 +6,8 @@
 class InsertionSort : public SortBase
 {
 public:
+    InsertionSort() {}
+
     InsertionSort(int argc, char *argv[])
         : SortBase(argc, argv)
     {

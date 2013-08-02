@@ -12,6 +12,11 @@ typedef std::vector<int> vect;
 class SortBase
 {
 public:
+    SortBase()
+    {
+        v = {7, 8, 1, 10, 5, 25, 12};
+    }
+
     SortBase(int argc, char *argv[])
     {
         if (argc > 1)

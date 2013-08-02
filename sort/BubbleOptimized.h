@@ -9,6 +9,8 @@
 class OptimizedBubbleSort : public SortBase
 {
 public:
+    OptimizedBubbleSort() {}
+
     OptimizedBubbleSort(int argc, char *argv[])
         : SortBase(argc, argv)
     {}

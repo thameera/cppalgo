@@ -6,6 +6,8 @@
 class MergeSort : public SortBase
 {
 public:
+    MergeSort() {}
+
     MergeSort(int argc, char *argv[])
         : SortBase(argc, argv)
     {

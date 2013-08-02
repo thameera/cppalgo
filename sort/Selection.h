@@ -6,6 +6,8 @@
 class SelectionSort : public SortBase
 {
 public:
+    SelectionSort() {}
+
     SelectionSort(int argc, char *argv[])
         : SortBase(argc, argv)
     {
