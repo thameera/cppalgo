@@ -45,7 +45,7 @@ public:
         {
             if (pos1 >= res1.size())
                 result.push_back(res2[pos2++]);
-            else if (pos2 >= res1.size())
+            else if (pos2 >= res2.size())
                 result.push_back(res1[pos1++]);
             else if (res1[pos1] < res2[pos2])
                 result.push_back(res1[pos1++]);
