@@ -44,9 +44,12 @@ gtest_main.a : gtest-all.o gtest_main.o
 ###
 
 ### Build tests
+testsim.o : $(TESTS_DIR)/testsim.h $(TESTS_DIR)/testsim.cpp
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(TESTS_DIR)/testsim.cpp
+
 sorttest.o : $(TESTS_DIR)/sorttest.cpp
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $(TESTS_DIR)/sorttest.cpp
 
-sorttest : sorttest.o gtest_main.a
+sorttest : sorttest.o testsim.o gtest_main.a
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -pthread $^ -o $@
 
