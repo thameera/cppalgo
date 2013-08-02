@@ -5,10 +5,13 @@
 
 namespace ts
 {
-    vect CreateVect(int size, int low, int high)
+    void Randomize()
     {
         std::srand( unsigned(std::time(0)) );
+    }
 
+    vect CreateVect(int size, int low, int high)
+    {
         vect v;
         for (int i = 0; i < size; i++)
             v.push_back(std::rand() % (high - low) + low);

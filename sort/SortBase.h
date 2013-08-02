@@ -31,7 +31,7 @@ public:
     virtual ~SortBase() {}
 
     inline const vect& getVect() { return v; }
-    inline void setVect(vect vv) { v = vv; }
+    inline void setVect(const vect& vv) { v = vv; }
 
     void Print(const vect& vv, const std::string s = "")
     {
@@ -58,6 +58,13 @@ public:
         Print("Input ");
         doSort();
         Print("Output");
+    }
+
+    const vect& getSorted(const vect& vv)
+    {
+        v = vv;
+        doSort();
+        return v;
     }
 
 protected:

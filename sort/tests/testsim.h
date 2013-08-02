@@ -5,6 +5,7 @@
 
 namespace ts
 {
+    void Randomize();
     vect CreateVect(int size, int low = 0, int high = 1000);
     bool IsSorted(const vect &v);
 };
