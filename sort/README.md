@@ -9,3 +9,8 @@ Copy main.cpp.sample to main.cpp and modify as necessary. Then, build with `make
     make
     ./sort
 
+## How to test
+
+    make test
+    ./sorttest
+

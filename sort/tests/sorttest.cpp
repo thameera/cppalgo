@@ -37,7 +37,8 @@ TEST(MetaTest, CreateVect)
 TEST(MetaTest, IsSorted)
 {
     vect v1 = {1, 2, 3, 5, 30, 2000};
-    vect v2 = {}; vect v3 = {-6};
+    vect v2 = {};
+    vect v3 = {-6};
     vect v4 = {4, 5, 7, 6};
     vect v5 = {1, 1, 1, 2, 3};
     vect v6 = {1, 2, 3, 3, -4};
@@ -54,6 +55,7 @@ TEST(SortTest, SelectionSortTest)
 {
     TESTX(1, Selection, 10)
     TESTX(2, Selection, 1200)
+    TESTX(3, Selection, 5137)
 }
 
 
@@ -61,6 +63,7 @@ TEST(SortTest, BubbleSortTest)
 {
     TESTX(1, Bubble, 10)
     TESTX(2, Bubble, 1200)
+    TESTX(3, Bubble, 5137)
 }
 
 
@@ -68,6 +71,7 @@ TEST(SortTest, OptimizedBubbleSortTest)
 {
     TESTX(1, OptimizedBubble, 10)
     TESTX(2, OptimizedBubble, 1200)
+    TESTX(3, OptimizedBubble, 5137)
 }
 
 
@@ -75,6 +79,7 @@ TEST(SortTest, InsertionSortTest)
 {
     TESTX(1, Insertion, 10)
     TESTX(2, Insertion, 1200)
+    TESTX(3, Insertion, 5137)
 }
 
 
@@ -82,6 +87,7 @@ TEST(SortTest, MergeSortTest)
 {
     TESTX(1, Merge, 10)
     TESTX(2, Merge, 1200)
+    TESTX(3, Merge, 5137)
 }
 
 
